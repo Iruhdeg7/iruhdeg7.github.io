@@ -2,69 +2,55 @@
 <html>
 
 <head>
-    <title>Acceuil</title>
     <link rel="stylesheet" href="style.css">
+    <title>Home page</title>
 </head>
 
 <body>
-    <div class="header" id="header">
-        <div class="container">
-            <a href="index.html" id="firsta">Acceuil</a>
+    <div id="header">
+        <div id="Logo">
+            <a href="index.html">
+                <h1>IruhDeg7's</h1>
+            </a>
+        </div>
+        <div id="navtab">
             <ul>
-                <li><a href="mailto:m4nga.styl3@gmail.com">Contacter</a></li>
-                <li><a href="about.html">A propos</a></li>
+                <li id="c1"><a href="about.html">About</a></li>
+                <li id="c1"><a href="contact.html">Contact</a></li>
+                <li id="c2"><a href="login.html">Log in</a></li>
+                <li id="c2"><a href="signup.html">Sign up</a></li>
             </ul>
         </div>
     </div>
-    <div class="main" id="main">
-        <div class="container">
-            <div class="post">
-                <div class="post-author">
-                    <img src="me.png" alt="" width="150" , height="150"><br>
-                    <span>IruhDeg7</span>
-                    <p class="post-date">
-                        Aujourd'hui
-                    </p>
-                    <h3 class="post-tilte">Devenir un web-développer!</h3>
-                    <div class="post-content">
-                        <p>Si quelqu'un m'aurait dit ,il y a un mois, que la création d'un site web était facile je ne l'aurais pas cru.</p>
-                        <p>Mais avec un petite formation de 2 semaine à peine en voici ma première page et mon premier blog.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="post">
-                <div class="post-author">
-                    <img src="him.png" alt="" width="150" , height="150"><br>
-                    <span>Lbachir</span>
-                    <p class="post-date">
-                        Hier
-                    </p>
-                    <h3 class="post-tilte">PFFFFF c'est n'importe quoi!</h3>
-                    <div class="post-content">
-                        <p>Never Do Yesterday What Should Be Done Tomorrow!.</p>
-                        <p>Vaut Mieux Prévenir Que Périr.</p>
-                        <p>ZA WAARUDO Toki Wo Tomareeeee.<br>ROADO ROORA DA!!!!<br>Sochite Toki Ga UgokiDesu.</p>
-                    </div>
-                </div>
-            </div>
+    <div id="container">
+        <div id="mypost">
+            <img src="me.png" id="me" class="ligne">
+            <h3 class="ligne">IruhDeg7</h3>
+            <p>Bienvenue Sur ce Blog de merde sale humain <br> Cordialement.
+            </p>
+        </div>
+        <div id="posting">
+            <h2>Leave a post:</h2>
+            <input placeholder="Pseudo" type="text" id="pseudo"><br><br>
+            <textarea placeholder="Leave your post here" id="content" cols="30" rows="10"></textarea><br>
+            <button onclick="posting()">Post</button>
         </div>
     </div>
-    <div class="footer" id="footer">
-        <div class="container">
-            <div class="column c1">
-                <h4>Liens</h4>
-                <p>
-                    <a href="https://www.facebook.com/iruhdegset">Facebook</a><br>
-                    <a href="https://www.twitter.com/Deg7iruh">twitter</a>
-                </p>
-            </div>
-            <div class="column c2">
-                <h4>Bio</h4>
-                <p>I'm not a developer, BUT I'll be!</p>
-            </div>
 
+    <div id="footer">
+        <br>
+        <div id="lien" class="foot">
+            <ul><u><h3>Liens utils</h3></u>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">YouTube</a></li>
+            </ul>
+        </div>
+        <div id="bio" class="foot">
+            <p>Made By <span>IruhDegSet</span></p>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
