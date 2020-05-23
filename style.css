@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    border: none;
+    /*border: none;*/
 }
 
 body {
@@ -132,4 +132,35 @@ span {
     display: inline;
     vertical-align: middle;
     margin-bottom: 7px;
+}
+
+#logbox {
+    text-align: center;
+    background-color: indianred;
+    filter: opacity(70%);
+    border: solid 2px indigo;
+    border-radius: 10px;
+    width: max-content;
+    height: auto;
+    padding: 10px;
+    margin: 50px auto auto auto;
+}
+
+#infos {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+
+#login {
+    background-color: darkgreen;
+    border-radius: 7px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#logbox li {
+    margin: 7px auto auto auto;
 }
