@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    /*border: none;*/
+}
+
+body {
+    background-image: url("banner.jpeg");
+    background-size: 100% 100%;
+}
+
+a {
+    text-decoration: none;
+    color: lightslategray;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    color: blue;
+}
+
+a h1 {
+    padding-left: 50px;
+    font-size: 50px;
+}
+
+#navtab li {
+    display: inline;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#navtab {
+    /*float: right;*/
+    margin: 0 10px 0 10px;
+    padding: 0 15px 15px 15px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#container {
+    height: auto;
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#post {
+    height: auto;
+    width: 300px;
+    margin: 15px auto 15px 50px;
+}
+
+#post h3 {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: mediumseagreen;
+}
+
+#post p {
+    background-color: linen;
+    border-radius: 10px;
+    filter: opacity(70%);
+    margin-bottom: 20px;
+}
+
+#posting {
+    text-align: center;
+    filter: opacity(50%);
+}
+
+#footer {
+    border: ;
+    width: 100%;
+    height: auto;
+    color: cornsilk;
+}
+
+span {
+    /*font-weight: bold;*/
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    color: lightblue;
+}
+
+#bio p {
+    text-align: right;
+    padding: 5px;
+    margin: 0 50px 0 auto;
+}
+
+#lien ul {
+    text-decoration: none;
+}
+
+#him {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+    filter: opacity(75%);
+}
+
+#mypost {
+    height: auto;
+    width: max-content;
+    margin: 20px auto 10px 75px;
+}
+
+#mypost h3 {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: mediumseagreen;
+    font-size: 30px;
+}
+
+#mypost p {
+    background-color: linen;
+    border-radius: 10px;
+    filter: opacity(70%);
+    margin-bottom: 20px;
+}
+
+#me {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.ligne {
+    display: inline;
+    vertical-align: middle;
+    margin-bottom: 7px;
+}
+
+#logbox {
+    text-align: center;
+    background-color: indianred;
+    filter: opacity(70%);
+    border: solid 2px indigo;
+    border-radius: 10px;
+    width: max-content;
+    height: auto;
+    padding: 10px;
+    margin: 50px auto auto auto;
+}
+
+#infos {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+
+#login {
+    background-color: darkgreen;
+    border-radius: 7px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#logbox li {
+    margin: 7px auto auto auto;
+}
+
+#op {
+    width: 15px;
+    margin: 0 20px 0 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
