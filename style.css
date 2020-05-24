@@ -164,3 +164,10 @@ span {
 #logbox li {
     margin: 7px auto auto auto;
 }
+
+#op {
+    width: 15px;
+    margin: 0 20px 0 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
