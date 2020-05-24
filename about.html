@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
-    <title>About page</title>
+    <title>Calculator page</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
         </div>
         <div id="navtab">
             <ul>
-                <li id="c1"><a href="about.html">About</a></li>
+                <li id="c1"><a href="about.html">calculator</a></li>
                 <li id="c1"><a href="contact.html">Contact</a></li>
                 <li id="c2"><a href="login.html">Log in</a></li>
                 <li id="c2"><a href="signup.html">Sign up</a></li>
@@ -24,7 +24,24 @@
     </div>
     <div id="container">
         <div id="logbox">
-            <img src="travail.png" alt="">
+            <h2>Calculs de bénéfices :</h2><br><br>
+
+            <div id="vlaues">
+                <label for="prix">Prix initial :</label>
+                <input type="text" placeholder="Prix initial" name="prix" id="prix">
+                <input type="text" id="op">
+                <input type="text" placeholder="Taux" name="taux" id="taux">
+                <label for="taux"> %</label><br><br><br>
+            </div>
+            <div id="output">
+                <button id="login" onclick="calcul()">Calculer</button><br><br>
+                <p id="final"></p><br><br>
+                <p id="benefice"></p><br><br>
+                <ul> Entrez dans la case du milieu le signe correspondant :
+                    <li>Pour les remises utiliser le signe ' - '.</li>
+                    <li>Pour les augmentation utiliser le signe ' + '.</li>
+                </ul>
+            </div>
         </div>
     </div>
     <div id="footer">
