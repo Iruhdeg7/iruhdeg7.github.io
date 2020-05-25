@@ -171,3 +171,25 @@ span {
     font-weight: bold;
     font-size: 20px;
 }
+
+a img {
+    border-radius: 50px;
+    margin: 15px -35px 0 25px;
+    width: 100px;
+    height: 85px;
+    filter: blur(0.5px) opacity(75%);
+}
+
+.fi {
+    display: inline;
+}
+
+input {
+    border-radius: 10px;
+    height: 25px;
+}
+
+.like {
+    display: inline;
+    float: right;
+}

@@ -1,23 +1,42 @@
 function posting() {
-    var element = document.createElement("div");
-    element.id = "post";
-    document.getElementById("container").appendChild(element);
+    var pseudo = document.getElementById("pseudo").value;
+    var content = document.getElementById("content").value;
+    if (pseudo !== "" && content !== "") {
 
-    var pic = document.createElement("img");
-    pic.id = "him";
-    pic.className = "ligne";
-    pic.setAttribute('src', 'him.png');
-    var titre = document.createElement("h3");
-    titre.className = "ligne";
-    var contenant = document.createElement("p");
+        var element = document.createElement("div");
+        element.id = "post";
+        document.getElementById("container").appendChild(element);
 
-    titre.innerHTML = document.getElementById("pseudo").value;
-    contenant.innerHTML = document.getElementById("content").value;
+        var pic = document.createElement("img");
+        pic.id = "him";
+        pic.className = "ligne";
+        pic.setAttribute('src', 'him.png');
+        var titre = document.createElement("h3");
+        titre.className = "ligne";
+        var contenant = document.createElement("p");
+        var nbrlikes = document.createElement("h4");
+        nbrlikes.className = "like";
+        nbrlikes.id = "nbr";
+        var liker = document.createElement("button");
+        liker.className = "like";
+        /*liker.setAttribute("onclick", "liker()");*/
 
-    document.getElementById("post").appendChild(pic);
-    document.getElementById("post").appendChild(titre);
-    document.getElementById("post").appendChild(contenant);
+        titre.innerHTML = pseudo;
+        contenant.innerHTML = content;
+        liker.innerHTML = "Liker";
+
+        document.getElementById("post").appendChild(pic);
+        document.getElementById("post").appendChild(titre);
+        document.getElementById("post").appendChild(contenant);
+        document.getElementById("post").appendChild(nbrlikes);
+        document.getElementById("post").appendChild(liker);
+    };
+
+
+
 };
+
+
 
 function calcul() {
     var prix = document.getElementById("prix").value;
@@ -38,4 +57,4 @@ function calcul() {
         document.getElementById("final").innerHTML = "Veuillez Entrer soit le signe '+' ou '-', Merci";
 
     }
-}
+};
