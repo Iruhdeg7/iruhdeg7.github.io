@@ -1,0 +1,164 @@
+@font-face {
+    src: url(fonts/Roboto-Regular.ttf);
+    font-family: "roboto";
+}
+
+@font-face {
+    src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+    font-family: "roboto-mono";
+}
+
+@font-face {
+    src: url(fonts/Yellowtail-Regular.ttf);
+    font-family: "cites";
+}
+
+* {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+@font-face {
+    src: url(fonts/PermanentMarker-Regular.ttf);
+    font-family: "marker";
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+    background: url(images/bg2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    backdrop-filter: blur(2px);
+    color: #aceeee;
+    font-family: "roboto";
+}
+
+#logo {
+    width: auto;
+    height: 120px;
+    margin-left: 50px;
+}
+
+#titre {
+    height: 80px;
+    width: 600px;
+    margin-left: 15px;
+}
+
+.baniere {
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+#hiddentitlte {
+    display: none;
+}
+
+#navbar {
+    padding-bottom: 1px;
+}
+
+#navbar li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.icon1 {
+    height: 24px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #eee;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#main {
+    display: flex;
+}
+
+#side {
+    flex-grow: 1;
+    margin-top: 20px;
+}
+
+#side li {
+    list-style-type: none;
+    margin-bottom: 15px;
+    margin-left: -10px;
+}
+
+#side a {
+    text-decoration: none;
+    color: #eee;
+}
+
+#container {
+    padding: 0 10px 0 10px;
+    flex-grow: 3;
+}
+
+#container p {
+    text-indent: 20px;
+}
+
+#sectitle {
+    text-align: center;
+    text-decoration: underline double #eee;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    font-size: 45px;
+    font-family: marker;
+}
+
+article p {
+    padding: 0 10px 0 10px;
+    text-indent: 20px;
+}
+
+article h2 {
+    text-align: center;
+}
+
+#footer {
+    display: flex;
+    border-top: 10px double indigo;
+}
+
+.pied {
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+#lfoot {
+    text-align: center;
+}
+
+#lfoot li {
+    display: inline;
+}
+
+#mfoot {
+    text-align: center;
+}
+
+.icon {
+    height: 40px;
+}
+
+#corpname {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+
+#span {
+    width: 100px;
+}
+
+#span:hover {
+    width: 150px;
+}

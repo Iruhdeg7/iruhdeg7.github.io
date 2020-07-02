@@ -1,0 +1,38 @@
+input,
+label,
+textarea,
+select {
+    margin: 10px;
+}
+
+fieldset {
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+.cvleg {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 12px;
+    color: lightgoldenrodyellow;
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+    padding-right: 25px;
+    padding-left: 35px;
+}
+
+progress {
+    height: 20px;
+}
+
+.cvfs {
+    padding: 10px;
+    border: 10px indigo double;
+    border-radius: 50px;
+    text-align: left;
+}
