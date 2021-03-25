@@ -1,0 +1,82 @@
+/* ------------------------------------ Aside ---------------------------------*/
+#sidebar {
+    align-items: center;
+}
+.FormRDVTableTr td {
+    padding: 2mm 0;
+}
+.FormRDVTableTr input {
+    width: fit-content;
+    padding: 1mm;
+    border-radius: 2mm;
+    border: 0.5mm solid white;
+    background: #333;
+    color: white;
+}
+#SubmitRDV {
+    margin: 5mm;
+    padding: 1mm 2mm;
+    border-radius: 2mm;
+    background: #222;
+    color: white;
+    border: 1px solid white;
+}
+#SubmitRDV:hover {
+    background: green;
+}
+/* ----------------------------- Main ----------------------------------*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#FormContact {
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.FormContactTableTr td {
+    padding: 5mm 5mm;
+}
+.FormContactTableTr td input {
+    width: 6cm;
+    height: 5mm;
+    border-radius: 8px;
+    border: 1mm solid green ;
+    padding: 3px;
+}
+
+#FormContactDiv1{
+    margin: 5mm 2mm 2mm 2mm;
+}
+#Objet {
+    width: 6cm;
+    height: 5mm;
+    border-radius: 8px;
+    border: 1mm solid green ;
+    padding: 3px;
+    margin-top: 2mm;
+}
+#Msg {
+    border-radius: 8px;
+    border: 1mm solid green ;
+    padding: 6px;
+}
+#SubmitButton {
+    width: 2.5cm;
+    height: 9mm;
+    border-radius: 3mm;
+    background: #333;
+    color: white;
+    align-self: center;
+
+}
+#SubmitButton:hover {
+    background: green;
+}
+/* ------------------------------------ AdAside ---------------------------------*/
+/* ------------------------------------ All -----------------------------------*/
+/*input:required {
+    border-color: red;
+}*/
